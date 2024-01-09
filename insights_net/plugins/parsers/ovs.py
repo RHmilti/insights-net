@@ -3,7 +3,7 @@ from insights import parser, CommandParser
 from insights.core.context import SosArchiveContext
 from insights.core.spec_factory import simple_file, glob_file
 from insights.parsers import SkipException
-from ovs_dbg.ofp import OFPFlow
+from ovs_dbg.ofparse import OFPFlow
 from ovs_dbg.filter import OFFilter
 
 from insights_net.plugins.parsers.ovsdb import (
